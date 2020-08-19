@@ -19,4 +19,7 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --f
 一些常见问题
 https://www.cnblogs.com/hellxz/p/why_cnnect_to_kafka_always_failure.html
 
-有windows下的包，新版本 kafka 集成了zookeeper 
+3,有windows下的包，新版本 kafka 集成了zookeeper 
+C:\code\kafka\kafka\bin\windows>zookeeper-server-start.bat
+C:\code\kafka\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic testDemo
+C:\code\kafka\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server 127.0.0.1:9092 --topic testDemo --from-beginning
